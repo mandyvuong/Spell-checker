@@ -25,5 +25,8 @@ describe 'spellchecker' do
   it 'returns the corrected sentence where there is one incorrected word and other symbols' do
     expect(spellchecker('ta the.?,!')).to eq '~ta~ the.?,!'
   end
+  it 'raises an error if string contains a number' do
+    expect{spellchecker('at8')}.to raise_error('Invalid')
+  end
 end
 
