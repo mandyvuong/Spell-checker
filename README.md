@@ -2,7 +2,7 @@
 
 Makers Academy review
 
-CoGrammar, the reviewer roleplays as a product owner with a set of non-technical requirements. The developer (myself) uses dev process to convert these requirements into a working, tested, well-written application.
+CoGrammar, the reviewer roleplays as a product owner with a set of non-technical requirements. The developer (myself) uses dev processes to convert these requirements into a working, tested, well-written application.
 
 ## Requirement from the Reviewer
 
