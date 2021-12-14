@@ -13,5 +13,8 @@ describe 'spellchecker' do
   it 'returns the incorrected single word' do
     expect(spellchecker('ta')).to eq '~ta~'
   end
+  it 'returns the corrected sentence' do
+    expect(spellchecker('At the')).to eq 'At the'
+  end
 end
 
