@@ -16,8 +16,11 @@ describe 'spellchecker' do
   it 'returns the corrected sentence' do
     expect(spellchecker('At the')).to eq 'At the'
   end
-  it 'returns the corrected sentence where there is one mistake' do
+  it 'returns the corrected sentence where there is one incorrected word' do
     expect(spellchecker('ta the')).to eq '~ta~ the'
+  end
+  it 'returns the corrected sentence where there is one incorrected word and a fullstop' do
+    expect(spellchecker('ta the.')).to eq '~ta~ the.'
   end
 end
 

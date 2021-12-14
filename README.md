@@ -25,5 +25,6 @@ dictionary - list of words
 | ta                             | ~ta~                            |
 | At the                         | At the                          |
 | ta the                         | ~ta~ the                        |
+| ta the.                        | ~ta~ the.                       |
 | at the moment there is nothing | at the moment there is nothing  |
 | at the momnt there is nothing  | at the ~momnt~ there is nothing |
