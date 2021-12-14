@@ -28,5 +28,8 @@ describe 'spellchecker' do
   it 'raises an error if string contains a number' do
     expect{spellchecker('at8')}.to raise_error('Invalid')
   end
+  it 'raises an error if string contains numbers' do
+    expect{spellchecker('123at')}.to raise_error('Invalid')
+  end
 end
 

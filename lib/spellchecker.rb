@@ -16,5 +16,5 @@ def format(sentence)
 end
 
 def validation(sentence)
-  raise 'Invalid' if sentence.include?('8') 
+  raise 'Invalid' if sentence =~ /\d/  
 end
