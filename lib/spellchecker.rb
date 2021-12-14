@@ -1,3 +1,7 @@
 def spellchecker(sentence)
-  sentence
+  if sentence.downcase == 'at'
+    sentence
+  else
+    "~#{sentence}~"
+  end
 end

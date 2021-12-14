@@ -10,5 +10,8 @@ describe 'spellchecker' do
   it 'returns the corrected single word (upcase)' do
     expect(spellchecker('AT')).to eq 'AT'
   end
+  it 'returns the incorrected single word' do
+    expect(spellchecker('ta')).to eq '~ta~'
+  end
 end
 
