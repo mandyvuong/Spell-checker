@@ -28,3 +28,8 @@ dictionary - list of words
 | ta the.                        | ~ta~ the.                       |
 | at the moment there is nothing | at the moment there is nothing  |
 | at the momnt there is nothing  | at the ~momnt~ there is nothing |
+
+FEEDBACK
+
+- Explored more on the problem domain i.e. punctuation, proper nouns and numbers
+- Could have implemented dictionary earlier
