@@ -1,6 +1,6 @@
 # Spell checker
 
-Makers Academy review 3
+Makers Academy review
 
 CoGrammar, the reviewer roleplays as a product owner with a set of non-technical requirements. The developer (myself) uses dev process to convert these requirements into a working, tested, well-written application.
 
