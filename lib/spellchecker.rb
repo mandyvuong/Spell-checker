@@ -8,7 +8,7 @@ def spellchecker(sentence)
 end
 
 def dictionary
-  ['at', 'the']
+  ['at', 'the', 'moment', 'we', 'have', 'nothing', 'to', 'lose']
 end
 
 def format(sentence)
