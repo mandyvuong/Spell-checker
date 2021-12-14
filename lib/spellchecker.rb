@@ -1,7 +1,7 @@
 def spellchecker(sentence)
   sentence = format(sentence)
   corrected = sentence.map { |word|                 
-    dictionary.include?(word.downcase.gsub(/[.]/, '')) ? word : "~#{word}~"
+    dictionary.include?(word.downcase.gsub(/[.,?!]/, '')) ? word : "~#{word}~"
   }
   corrected.join(' ')
 end
