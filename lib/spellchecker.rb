@@ -1,12 +1,15 @@
 def spellchecker(sentence)
-  dictionary = ['at', 'the']
-  sentence = sentence.split(' ')
+  sentence = format(sentence)
   corrected = sentence.map { |word|
-    if dictionary.include?(word.downcase)
-      word
-    else
-      "~#{word}~"
-    end
+    dictionary.include?(word.downcase) ? word : "~#{word}~"
   }
   corrected.join(' ')
+end
+
+def dictionary
+  ['at', 'the']
+end
+
+def format(sentence)
+  sentence.split(' ')
 end
