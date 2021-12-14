@@ -6,7 +6,7 @@ CoGrammar, the reviewer roleplays as a product owner with a set of non-technical
 
 ## Requirement from the Reviewer
 
-Reviewer works for Megasoftweird who owns a word processor and they would like you to build a spell checker prototype. The spell checker takes in a sentence and outputs the corrected sentence and any incorrect word in the sentence will have a ~ between the incorrect word(s). The spell checker input is always a String format and for now you can implement your own dictionary and the client will provide a dictionary later on.
+Reviewer works for Megasoftweird who owns a word processor and they would like you to build a spell checker prototype. The spell checker takes in a sentence and outputs the corrected sentence and any incorrect word(s) in the sentence will have a ~ between the incorrect word(s). The spell checker input is always a String format and for now you can implement your own dictionary and the client will provide a dictionary later on.
 
 For example 'This is a tsst' will return 'This is a ~tsst~'
 
